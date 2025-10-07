@@ -7,6 +7,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dona'm un valor en metres");
+        double valor = Convert.ToDouble(Console.ReadLine());
+
+        var peus = valor * 3.28084;
+
+        Console.WriteLine("Tens" + " " + peus + " " + "peus");
     }
 }

@@ -15,6 +15,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dona'm un numero lleig");
+        float numlleig = float.Parse(Console.ReadLine()!);
+
+        float numdecimal = numlleig - (int)numlleig;
+
+        Console.WriteLine($"El número maravellos és {numdecimal:F2}");
     }
 }

@@ -6,6 +6,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dona'm una paraula");
+        string paraula = Console.ReadLine()!;
+
+        Console.WriteLine("La paraula" + " " + paraula + " " + "conté un total de" + " " + paraula.Length + " " + "lletres");
     }
 }

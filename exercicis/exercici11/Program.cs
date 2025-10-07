@@ -5,6 +5,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        string nom = "jhernandezdeharo";
+        string domini = "cendrassos.cat";
+
+        string simbol = "@";
+
+        string resultat = String.Concat(nom, simbol, domini);
+
+        Console.WriteLine("La teva adreça de correu és:" + " " + resultat);
     }
 }

@@ -7,6 +7,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("De quant es el costat del quadrat?");
+        var costat = Console.ReadLine();
+        int costat1 = Convert.ToInt16(costat);
+
+        var perimetre = 4;
+
+        Console.WriteLine("El perímetre del teu quadrat és:" + " " + (costat1 * perimetre));
     }
 }

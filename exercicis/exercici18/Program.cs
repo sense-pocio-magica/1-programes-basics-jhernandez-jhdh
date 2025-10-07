@@ -17,6 +17,17 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Quina hora és actualment?");
+        int hora_actual = Convert.ToInt16(Console.ReadLine()!);
+
+        Console.WriteLine("Quantes hores vols incrementar?");
+        int hora_incrementar = Convert.ToInt16(Console.ReadLine()!);
+
+        int hora_final = (hora_actual + hora_incrementar) % 12;
+        if (hora_final == 0) hora_final = 12;
+
+
+        Console.WriteLine($"D'aqui a {hora_incrementar} hores l'hora actual sera {hora_final}");
+        
     }
 }

@@ -27,6 +27,27 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Dona'm el primer número");
+        int num1 = Convert.ToInt16(Console.ReadLine());
+
+        Console.WriteLine("Dona'm el segon número");
+        int num2 = Convert.ToInt16(Console.ReadLine());
+
+     var suma = num1 + num2;
+
+        var resta = num1 - num2;
+
+        var multiplicacio = num1 * num2;
+
+        var divisio = num1 / num2;
+
+        var residu = num1 % num2;
+
+        Console.WriteLine("La suma és: " + suma);
+        Console.WriteLine("La resta és: " + resta);
+        Console.WriteLine("La multiplicació és: " + multiplicacio);
+        Console.WriteLine("La divisió és:" + " " + divisio + " " + "i" + " " + residu + " " + "el residu");
+
+
     }
 }
