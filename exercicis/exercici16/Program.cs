@@ -17,25 +17,19 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Quina es la teva nota de pràctiques?");
-        // var practiques = Console.ReadLine();
-        //  int practiques2 = Convert.ToInt32(practiques);
-        // float practiques3 = (float)practiques2;
+       
         float practiques = float.Parse(Console.ReadLine()!);
 
         Console.WriteLine("Quina es la teva nota d'examen?");
-        // var examen = Console.ReadLine();
-        // int examen2 = Convert.ToInt32(examen);
-        //  float examen3 = (float)examen2;
+      
         float examen = float.Parse(Console.ReadLine()!);
 
-        //int mitjana1 = practiques2 + examen2;
+      
         float mitjana1 = (practiques + examen) / 2;
         int mitjana2 = (int)Math.Round((practiques + examen) / 2);
-        //int mitjana2 = mitjana1 / 2;
-        //float mitjana3 = practiques3 + examen3;
-        //float mitjana4 = mitjana3 / 2;
+       
 
-        // Console.WriteLine($"La nota final és {mitjana4} o sigui un {(int)Math.Round(mitjana4)}");
+     
         Console.WriteLine($"La nota final és {mitjana1:F2} o sigui un {mitjana2}");
 
     }

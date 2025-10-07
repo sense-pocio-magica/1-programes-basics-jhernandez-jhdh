@@ -23,10 +23,7 @@ class Program
 
         Console.WriteLine(primeralletranom + nomsensemajuscula + " " +  primeralletracognom + cognomsensemajuscula);
 
-       // string nom1 = nom.Substring(1,8); // =3456
-        //string cognom1 = cognom.Substring(1.8);
-        //string paraulanom = paraulanom.Substring(3,2)
-        //Console.WriteLine(primeralletranom + primeralletracognom);
+       
 
 
     }
