@@ -8,6 +8,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        string nom = "Jose";
+        int data = 2007;
+
+        string resultat = String.Concat(nom, data);
+        Console.WriteLine("La contrasenya bàsica és:" + " " + resultat);
+
+
+
+
     }
 }

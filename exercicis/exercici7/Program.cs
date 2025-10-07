@@ -7,6 +7,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        
+        var num1 = 4.5;
+        var num2 = 4.8;
+        var num3 = 6.4;
+
+        var numnotes = 3;
+
+        Console.WriteLine("La mitjana de les teves notes numèriques és:" + " " + (num1 + num2 + num3) / numnotes);
+
     }
 }

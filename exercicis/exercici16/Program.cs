@@ -16,6 +16,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Quina es la teva nota de pràctiques?");
+       
+        float practiques = float.Parse(Console.ReadLine()!);
+
+        Console.WriteLine("Quina es la teva nota d'examen?");
+      
+        float examen = float.Parse(Console.ReadLine()!);
+
+      
+        float mitjana1 = (practiques + examen) / 2;
+        int mitjana2 = (int)Math.Round((practiques + examen) / 2);
+       
+
+     
+        Console.WriteLine($"La nota final és {mitjana1:F2} o sigui un {mitjana2}");
+
     }
 }
